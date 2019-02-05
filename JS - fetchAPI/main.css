@@ -1,0 +1,49 @@
+.getAPI{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.getAPI:hover{
+    background-color: lightsalmon;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.item{
+    padding: 5px;
+    margin: 5px;
+    background: crimson;
+    border: 1px solid black;
+    list-style: decimal;
+    width: 50%;
+}
+
+.item:hover{
+    background: greenyellow;
+    transition: 0.5s;
+}
+
+.delBtn{
+    float: right;
+}
+
+.delBtn:hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+
+.nextPage, .previousPage{
+    background: #4CAF50;
+    color: white;
+}
+
+.nextPage:hover, .previousPage:hover{
+    color: black;
+    background: #ddd;
+    transition: 0.3s;
+}
