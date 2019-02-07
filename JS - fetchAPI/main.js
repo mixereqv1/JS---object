@@ -33,10 +33,11 @@ const getData = {
                 
             },this);
         }.bind(this));
+        
+        this.pageNum.innerText = 'Strona: ' + this.pageNumber;
     },
 
     deleteHero: function(event){
-        console.log(event.target);
         if(event.target.classList.contains('delBtn')){
             event.target.parentElement.remove();
         }
@@ -67,7 +68,6 @@ const getData = {
         this.swList.addEventListener('click',this.deleteHero.bind(this));
         this.nextBtn.addEventListener('click',this.nextPage.bind(this));
         this.prevBtn.addEventListener('click',this.previousPage.bind(this));
-        this.pageNum.innerText = 'Strona: ' + this.pageNumber;
     }
 }
 
